@@ -5,21 +5,26 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
+    
 }
 
 .form-control{
-    background-color:rgba(255, 255, 255, 0.2);
+    background-color:#ffffffd5;
     padding: 22px;
     border: none;
     border-radius: 25px;
+    text-transform: capitalize;
 }
 .btn{
     border-radius: 1.5rem;
     padding: 9px 20px;
 }
-
+.margin {
+    margin-top:-43px;
+    padding: 10px 20px;
+}
 .btn-privious{
-    background: rgba(255, 255, 255, 0.2);
+    background: #ffffff33;
     color: #ffffff;
 }
 .navbar-toggler {
@@ -38,4 +43,7 @@ body{
     background: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
 }
-
+audio.audio-song {
+    width: 210px;
+    height: 50px;;
+}
